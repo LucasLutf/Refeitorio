@@ -3,9 +3,9 @@
   <div class="semana">
     <h1>Segunda-feira</h1>
     <span>24/02/2006</span>
-    <div>
-      <img class="direita" src="@/img/image24.png" alt="" />
-      <img class="esquerda" src="@/img/image15.png" alt="" />
+    <div class="setas">
+      <img src="@/img/setaEsquerda.png" alt="" />
+      <img src="@/img/setaDireita.png" alt="" />
     </div>
   </div>
 </template>
@@ -13,7 +13,7 @@
 <style>
 .semana {
   position: absolute;
-  width: 408px;
+  width: calc(100% - 20px);
   height: 70px;
   left: 20px;
   top: 200px;
@@ -37,7 +37,15 @@
   justify-content: center;
   margin: -12px 0 0 0;
 }
-.direita img {
+.setas {
   display: flex;
+  justify-content: space-between;
+  width: 60%;
+  left: 20%;
+  top: 27px;
+  position: absolute;
+}
+.setas img {
+  width: 15px;
 }
 </style>

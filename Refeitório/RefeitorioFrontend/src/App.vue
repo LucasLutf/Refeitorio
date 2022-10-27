@@ -10,6 +10,10 @@ import HeaderComp from "./components/headerComp.vue";
 
 <style>
 body {
-  background-color: #DDDEE1;
+  background-color: #dddee1;
+  width: 100%;
+}
+#app {
+  width: 100%;
 }
 </style>

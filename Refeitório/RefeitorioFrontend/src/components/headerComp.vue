@@ -18,16 +18,16 @@
 <style>
 .main {
   position: absolute;
-  width: 428px;
+  width: 100%;
   height: 233px;
-  left: 0px;
   top: 0;
+  left: 0%;
 
   background: linear-gradient(180deg, #468741 0%, rgba(217, 217, 217, 0) 100%);
 }
 .content {
   position: absolute;
-  width: 408px;
+  width: calc(100% - 20px);
   height: 130px;
   left: 20px;
   top: 24px;
@@ -41,51 +41,36 @@
   position: absolute;
   width: 85px;
   height: 85px;
-  left: calc(50% - 65px / 2 - 155.5px);
-  top: 24px;
+  top: 26px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  left: 5%;
 }
 .infos {
-  display: flex;
   align-items: center;
-  text-align: center;
-
-  color: #ffffff;
+  text-align: center; color: #ffffff;
 
   text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .infos h2 {
-  position: absolute;
-  height: 70px;
-  width: 380px;
-  left: 20px;
-  top: 0px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
   font-size: 28px;
-  line-height: 39px;
+  margin-bottom: 0;
 }
 .infos hr {
-  position: absolute;
-  width: 328px;
-  height: 0px;
-  left: 100px;
-  top: 65px;
-
+  width: 50%;
+  top: 40px;
   border: 1px solid rgba(255, 255, 255, 0.6);
 }
 .infos h3 {
-  position: absolute;
-  height: 70px;
-  width: 380px;
-  left: 130px;
   top: 50px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 21px;
+  justify-content: center;
   display: flex;
   align-items: center;
   text-align: center;
@@ -96,7 +81,8 @@
   position: absolute;
   width: 21.29px;
   height: 15.68px;
-  left: 340px;
-  top: 30px;
+  top: 24%;
+  left: 85%;
 }
+
 </style>
