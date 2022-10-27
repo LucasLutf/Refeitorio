@@ -8,9 +8,18 @@
       <img src="@/img/setaDireita.png" alt="" />
     </div>
   </div>
+  <div class="comidas">
+    <span class="prato">Prato Principal</span>
+    <span class="nomecomida">STROGONOFF DE CARNE</span>
+    <hr>
+    <img class="tabela" src="@/img/tabela.png" alt="" />
+    <span class="infonutri">Informação nutricional</span>
+  </div>
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
 .semana {
   position: absolute;
   width: calc(100% - 20px);
@@ -47,5 +56,54 @@
 }
 .setas img {
   width: 15px;
+}
+.comidas {
+  background-color: white;
+  width: calc(90% + 3%);
+  height: 110px;
+  position: absolute;
+  top: 320px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  margin-left: 1%;
+  flex-direction: column;
+  align-items: center;
+}
+.prato {
+  font-family: "Birthstone";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 41px;
+
+  text-align: center;
+  color: #000000;
+
+  mix-blend-mode: normal;
+}
+
+.nomecomida {
+  color: #49784D;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 11px ;
+}
+
+.tabela {
+  width: 24px;
+    margin: 0;
+  padding: 0;
+}
+
+.comidas hr{
+  width: 40%;
+  height: 1px;
+  padding: 0;
+  margin: 0;
+}
+
+.infonutri {
+  font-size: 10px;
 }
 </style>
