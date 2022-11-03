@@ -15,7 +15,7 @@
     </div>
   </div>
 </template>
-<style>
+<style scoped>
 .main {
   position: absolute;
   width: 100%;
