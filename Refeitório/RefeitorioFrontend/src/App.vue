@@ -2,7 +2,6 @@
 import { RouterView } from "vue-router";
 import HeaderComp from "./components/headerComp.vue";
 // import compFooter from "./components/compFooter.vue";
-import footerComp from "./components/footerComp.vue";
 
 </script>
 
